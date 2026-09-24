@@ -26,6 +26,10 @@ Your existing address, residents' password and editor PIN all keep working.
    time they open or refresh the page (phones that installed it included).
 
 What changed in V29:
+  - Publish now also sends your colour theme, font and day colours (the
+    tick "Colour theme, font and day colours"). The website opens in the
+    same colours as your editor browser. A resident who picks another
+    theme with the Theme button keeps their own choice.
   - The Teaching Console is now Teaching Console V6, without the Student
     name / ID box or the statistics line. Ticks and notes made in the old
     Teaching Console on the same device are carried over.
@@ -89,6 +93,7 @@ WHAT IS PUBLISHED (and what never is)
 -------------------------------------
 Publish lets you tick:
   [x] Clinical Console        [x] Rota Builder        [x] Exam Schedule
+  [x] Colour theme, font and day colours
   [ ] Tutors' weekly duties (off by default: these are personal timetables)
 There is also a box for a short notice to residents.
 
