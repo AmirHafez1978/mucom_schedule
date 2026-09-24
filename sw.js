@@ -2,7 +2,7 @@
    The page and schedule-data.json are always fetched fresh from the website
    when there is a connection; the saved copy is used only when offline, so
    residents can still open the last schedules they saw. */
-const CACHE = "im-site-v24b";
+const CACHE = "im-site-v29";
 const SHELL = ["./", "schedule-data.json", "manifest.webmanifest", "icon-192.png", "icon-512.png", "apple-touch-icon.png"];
 const BASE = new URL("./", self.location).pathname;
 
