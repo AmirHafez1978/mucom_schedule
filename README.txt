@@ -1,9 +1,9 @@
-INTERNAL MEDICINE TRAINING CONSOLE  -  WEBSITE (V29)
+INTERNAL MEDICINE TRAINING CONSOLE  -  WEBSITE (V30)
 ===================================================
 Department of Internal Medicine, College of Medicine, Al-Mustansiriyah University
 Dr. Ammar Waham Ashor
 
-This is the V29 console (V28 + the new Teaching Console V6), made
+This is the V30 console, made
 to run as a website. It has no Attendance tab.
 It holds the Clinical Console, Rota Builder, Teaching Console and Exam Schedule.
 Residents open one web address on a phone, tablet or computer and always see
@@ -13,7 +13,7 @@ Attendance is not part of the website. It needs the lecture computer and its
 Wi-Fi, so keep using the V24 web-app folder for that.
 
 
-REPLACING THE OLDER VERSION ON GITHUB  (V24 or V28 -> V29)
+REPLACING THE OLDER VERSION ON GITHUB  (older version -> V30)
 ---------------------------------------------------
 Your existing address, residents' password and editor PIN all keep working.
 1. Open your repository on github.com > "Add file" > "Upload files".
@@ -21,9 +21,18 @@ Your existing address, residents' password and editor PIN all keep working.
      index.html, sw.js, manifest.webmanifest, icon-192.png, icon-512.png,
      apple-touch-icon.png, .nojekyll
    (.nojekyll is hidden on a Mac: in the folder press Cmd+Shift+. to show it.)
-   Do NOT delete schedule-data.json on GitHub: V29 reads the same file.
-3. Press "Commit changes". Within 1 to 10 minutes residents get V29 the next
+   Do NOT delete schedule-data.json on GitHub: V30 reads the same file.
+3. Press "Commit changes". Within 1 to 10 minutes residents get V30 the next
    time they open or refresh the page (phones that installed it included).
+
+What changed in V30:
+  - Order of names inside a cell (Clinical Console and Exam Schedule):
+    while editing, press the small arrow on a name to move it one place
+    earlier, or drag a name onto another name in the same cell to put it
+    before that name.
+  - The name card (hovering over a tutor or examiner) no longer stops
+    working after a name has been dragged to another cell.
+  - The Clinical Console reopens on the stage you were last viewing.
 
 What changed in V29:
   - Publish now also sends your colour theme, font and day colours (the
@@ -135,7 +144,7 @@ serves plain files will do. With those you drag the whole folder in to update.
 
 MOVE YOUR DATA IN  (once)
 -------------------------
-1. Open the V24 web app, or the V29 console file > "Backup". A .json file
+1. Open the V24 web app, or the V30 console file > "Backup". A .json file
    is saved.
 2. Open the website with ?editor at the end of the address.
 3. "Restore" > "Restore from backup file..." > choose that file.
